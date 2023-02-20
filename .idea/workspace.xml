@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="초안">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/MemberController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/Member.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dao/MemberDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dto/MemberVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/webapp/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/servelt_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/servelt_context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,20 +23,29 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/spring-beta" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="live_subway/invalid/EJB" />
+      <facet id="live_subway/invalid/Python" />
+    </ignored-facets>
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -69,33 +79,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.1484375",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.ChatGPTSettingsPanel",
-    "spring.configuration.checksum": "f88de83e405493fbd32a4282b53de17f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1484375&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.obiscr.chatgpt.settings.ChatGPTSettingsPanel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5f09800bfa3b91b44f484461af0a11dc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -113,6 +123,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat: live_subway">
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -181,14 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Tomcat: live_subway" type="com.poratu.idea.plugins.tomcat" temporary="true">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -200,7 +210,7 @@
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.71" />
-          <option name="path" value="$PROJECT_DIR$/../../0.SERVER/apache-tomcat-9.0.71" />
+          <option name="path" value="$USER_HOME$/0.SERVER/apache-tomcat-9.0.71" />
           <option name="version" value="9.0.71.0" />
         </TomcatInfo>
       </option>
@@ -229,6 +239,10 @@
       <workItem from="1676750965843" duration="7693000" />
       <workItem from="1676782116235" duration="1162000" />
       <workItem from="1676802716380" duration="6498000" />
+      <workItem from="1676856741804" duration="1605000" />
+      <workItem from="1676858978515" duration="249000" />
+      <workItem from="1676859728172" duration="208000" />
+      <workItem from="1676863900762" duration="4727000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>

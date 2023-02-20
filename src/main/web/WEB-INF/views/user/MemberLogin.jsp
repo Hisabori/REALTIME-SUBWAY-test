@@ -17,7 +17,7 @@
 <body>
 <div class="container">
     <h2>Login Form</h2>
-    <form class="form-horizontal" method="post" action="login.do">
+    <form class="form-horizontal" method="post" action="<%=request.getContextPath()%>/login.do">
         <div class="form-group">
             <label class="control-label col-sm-2" for="username">Username:</label>
             <div class="col-sm-10">
